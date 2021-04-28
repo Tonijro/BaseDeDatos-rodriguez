@@ -1,0 +1,34 @@
+1) Una base de datos esta compuesta por datos que son parte de un mismo tema. Por ejemplo en un restaurante relacionado con comida, por ejemplo, hamburguesas tendra los precios de las hamburguesas lo que compone cada una etc.
+
+2) Las tablas se usan para definir que datos van a ir dentro de la misma por ejemplo, en una empresa de gran tamapño seria comun tener una base de datos con informacion sobre los empleados, como nombre, posicion corporativa, etc..
+
+3) En mysql se crean con el comando CREATE DATABASE y luego se escribe el nombre de la base de datos.
+
+4) VARCHAR.
+
+5a) Se crean con el comando CREATE TABLE despues se da nombre a la tabla y los tipos de variables y nombres entre parentesis ().
+
+5b) La primer parte de la consulta le esta pidiendo que cree la tabla despues de definir el nombre, se empiezan a definir los nombres y tipos de las variables.
+
+5c) Deberian escribirse en plural porque las tablas almacenan muchos datos por lo que si tenes una tabla que va a guardar informacion sobre criminales en una carcel penal la tabla se va a llamar criminales porque guardan varios detalles no uno solo.
+
+6) Con el comando INSERT INTO despues el nombre de la tabla y despues entre parentesis () se pone las variables a las que le vas a asignar valores por ejemplo (crimenl, nombre) y despues se pone el comando VALUES y pones los valores, por ejemplo ("Hurto","Alberto").
+
+7) con el comando SELECT * FROM y el nombre de la tabla.
+
+8a) con el comando UPDATE personas SET nombre = "Anacleto" WHERE dni = 14235234
+
+8b) con el comando UPDATE personas SET nombre = "Pablo" WHERE edad = 80
+
+8c) con el comando UPDATE personas SET direccion = "Calle_de_Ejemplo" WHERE apellido = Equis;
+
+8d) 
+
+8e) Con el comando SELECT  FROM personas WHERE edad >=18
+
+8f) Con el comando SELECT * FROM personas WHERE edad >=18 AND nombre = "Roberto"
+8g) Con el comando SELECT nombres FROM personas WHERE apellido = "x"
+
+8h) Con el comando SELECT edad FROM personas WHERE apellido = "x"
+
+8i) Con el comando SELECT * FROM personas WHERE edad <= 18

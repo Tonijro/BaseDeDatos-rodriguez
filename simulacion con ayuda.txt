@@ -1,0 +1,36 @@
+1)Una base de datos es un conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente para su posterior uso. En este sentido; una biblioteca puede considerarse una base de datos compuesta en su mayoría por documentos y textos impresos en papel e indexados para su consulta.
+
+2) Tabla en las bases de datos, se refiere al tipo de modelado de datos donde se guardan los datos recogidos por un programa. Su estructura general se asemeja a la vista general de un programa de tablas. Dentro de las mismas se puede encontrar informacion sobre el nete relacionado con la misma.
+
+3) En mysql se crean con el comando CREATE DATABASE y luego se escribe el nombre de la base de datos.
+
+4) VARCHAR.
+
+5a) Se crean con el comando CREATE TABLE despues se da nombre a la tabla y los tipos de variables y nombres entre parentesis ().
+
+5b) La primer parte de la consulta le esta pidiendo que cree la tabla despues de definir el nombre, se empiezan a definir los nombres y tipos de las variables.
+
+5c) Deberian escribirse en plural porque las tablas almacenan muchos datos por lo que si tenes una tabla que va a guardar informacion sobre criminales en una carcel penal la tabla se va a llamar criminales porque guardan varios detalles no uno solo.
+
+6) Con el comando INSERT INTO despues el nombre de la tabla y despues entre parentesis () se pone las variables a las que le vas a asignar valores por ejemplo (crimenl, nombre) y despues se pone el comando VALUES y pones los valores, por ejemplo ("Hurto","Alberto").
+
+7) con el comando SELECT * FROM y el nombre de la tabla.
+
+8a) con el comando UPDATE personas SET nombre = "Anacleto" WHERE dni = 14235234
+
+8b) con el comando UPDATE personas SET nombre = "Pablo" WHERE edad = 80
+
+8c) con el comando UPDATE personas SET direccion = "Calle_de_Ejemplo" WHERE apellido = Equis;
+
+8d) Con el comando DELETE FROM  personas WHERE apellido = "Gambona"
+
+8e) Con el comando SELECT  FROM personas WHERE edad >=18
+
+8f) Con el comando SELECT * FROM personas WHERE edad >=18 AND nombre = "Roberto"
+8g) Con el comando SELECT nombres FROM personas WHERE apellido = "x"
+
+8h) Con el comando SELECT edad FROM personas WHERE apellido = "x"
+
+8i) Con el comando SELECT * FROM personas WHERE edad <= 18
+
+(Extra) Con el comando ALTER TABLE el nombre de la tabla ADD COLUMN y el nombre de la columna que queres agregar y el tipo de variable.
